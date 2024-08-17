@@ -16,6 +16,7 @@ type Props = {
 };
 
 export default function WorkExample(props: Props) {
+  const shouldShowLink = props.url && props.buttonText;
   return (
     <div className="border border-gray-200 p-4 rounded-lg">
       <span>{props.id}</span>
@@ -37,7 +38,7 @@ export default function WorkExample(props: Props) {
         ))}
       </ul>
       {/* if there is button text show a nextjs Link comnponent to look like a button */}
-      {props.buttonText && <Link href={props.url}>{props.buttonText}</Link>}
+      {shouldShowLink && <Link href={props.url!}>{props.buttonText}</Link>}
     </div>
   );
 }
