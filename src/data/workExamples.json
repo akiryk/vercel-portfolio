@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Example 1",
+    "bulletPoints": ["This is a bullet point", "This is another bullet point"],
+    "description": "This is an example of a work example",
+    "image": "/favorites.jpg",
+    "altText": "Screenshot of a favorites feature",
+    "startDate": 2020,
+    "endDate": 2021,
+    "url": "https://www.example.com",
+    "buttonText": "View Project"
+  },
+  {
+    "id": 2,
+    "title": "Example 2",
+    "bulletPoints": ["This is a bullet point", "This is another bullet point"],
+    "description": "This is an example of a work example",
+    "image": "/add-to-registry-button.jpg",
+    "altText": "Screenshot of an add-to-registry button",
+    "startDate": 2020,
+    "url": "https://www.example.com",
+    "buttonText": "View Project"
+  },
+  {
+    "id": 3,
+    "title": "Example 3",
+    "bulletPoints": ["This is a bullet point", "This is another bullet point"],
+    "description": "This is an example of a work example",
+    "image": "/core-publisher.png",
+    "altText": "mobile devices with news website on screen",
+    "startDate": 2020,
+    "endDate": 2021,
+    "url": "https://www.example.com",
+    "buttonText": "View Project"
+  }
+]
