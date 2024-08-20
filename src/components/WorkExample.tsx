@@ -18,7 +18,10 @@ type Props = {
 export default function WorkExample(props: Props) {
   const shouldShowLink = props.url && props.buttonText;
   return (
-    <div className="border border-gray-200 p-4 rounded-lg">
+    <div
+      id={`project-${props.id}`}
+      className="border border-gray-200 p-4 rounded-lg"
+    >
       <span>{props.id}</span>
       <Image src={props.image} alt={props.altText} width={200} height={200} />
       <h4 className="text-lg font-bold">
@@ -26,11 +29,7 @@ export default function WorkExample(props: Props) {
         {props.endDate && <span>—{props.endDate}</span>}
         {props.title}
       </h4>
-      <p>
-        This is a work example. It could be a project you worked on, a website
-        you designed, or a blog post you wrote. It could be anything you want to
-        show off to potential employers or clients.
-      </p>
+      <p>{props.description}</p>
       <p>What I did</p>
       <ul>
         {props.bulletPoints.map((bulletPoint) => (

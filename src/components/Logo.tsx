@@ -72,25 +72,25 @@ export default function Logo() {
         id="kBottom"
         className={styles.st3}
         points="274.3,69.8 225.6,118.4 334.7,227.5 383.3,178.8"
-        clip-path="url(#kBottomMask)"
+        clipPath="url(#kBottomMask)"
       />
       <polygon
         id="aLeft"
         className={styles.st1}
         points="0,225.6 96.7,226.2 225.6,97.3 225.6,0 "
-        clip-path="url(#aLeftMask)"
+        clipPath="url(#aLeftMask)"
       />
       <polygon
         id="aRight"
         className={styles.st2}
         points="225.6,226.5 158.8,226.5 158.8,66.6 225.6,0"
-        clip-path="url(#aRightMask)"
+        clipPath="url(#aRightMask)"
       />
       <polygon
         id="kTop"
         className={styles.st0}
         points="274.3,167.1 343.4,98 343.4,0.7 225.6,118.4"
-        clip-path="url(#kTopMask)"
+        clipPath="url(#kTopMask)"
       />
     </svg>
   );
