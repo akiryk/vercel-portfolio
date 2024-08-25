@@ -1,14 +1,19 @@
 [
   {
     "id": 1,
-    "title": "Example 1",
-    "bulletPoints": ["This is a bullet point", "This is another bullet point"],
-    "description": "This is an example of a work example",
+    "title": "Wayfair Wedding Registry",
+    "bulletPoints": [
+      "Created a subscription-based approach to managing application state using React Context.",
+      "Emphasized stability and wrote tests to achieve extensive code coverage.",
+      "Led team‘s efforts to improve front-end performance, creating dashboards to monitor web vitals, and reducing our first input delay to under 100ms.",
+      "Implemented Storybook for testing UI; trained team in how to use it.",
+      "Improved form validation in the create-registry flow."
+    ],
+    "description": "As the senior front-end engineer, I led our team in decoupling the Registry site from the main Wayfair repo, enabling us to move faster and to create a more stable experience for our users.",
     "image": "/favorites.jpg",
-    "altText": "Screenshot of a favorites feature",
+    "altText": "Screenshot of wedding registry site",
     "startDate": 2020,
     "endDate": 2021,
-    "url": "https://www.example.com",
     "buttonText": "View Project"
   },
   {

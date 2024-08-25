@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import TopNav from "@/app/TopNav";
-import { garamond } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Adam Kiryk",
@@ -15,12 +14,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${garamond.className}`}>
+      <body className="font-caslon text-gray antialiased">
         <a href="#main" className="sr-only focus:not-sr-only">
           Skip To Main
         </a>{" "}
-        <TopNav />
-        <main id="main" className="mx-4">
+        <div className="mx-8">
+          <TopNav />
+        </div>
+        <main id="main" className="mx-8 lg:mx-16">
           {children}
         </main>
       </body>

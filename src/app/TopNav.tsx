@@ -15,8 +15,10 @@ const NavLink = ({ href, children }: { href: string; children: ReactNode }) => {
 
 const TopNav = () => {
   return (
-    <nav className={`bg-tan text-puce antialiased mb-8 ${openSans.className}`}>
-      <ul className="flex bg-blue-500">
+    <nav
+      className={`bg-tan text-puce antialiased mb-8 ${openSans.className} md:bg-transparent md:grid md:gap-8 md:grid-cols-3`}
+    >
+      <ul className="flex  md:col-span-2 md:col-start-2 md:-ml-2">
         <li>
           <NavLink href="/skills">Skills</NavLink>
         </li>

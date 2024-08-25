@@ -9,22 +9,24 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      tan: "#f2ecd8",
-      puce: "#928e58",
-      white: "rgb(255,255,255)",
-      gray: "#555",
-      lightGray: "#888",
-      link: "#0091c1",
-    },
     extend: {
+      colors: {
+        tan: "#f2ecd8",
+        puce: "#928e58",
+        gray: "#555",
+        link: "#0091c1",
+        red: "#c50404",
+      },
+      fontSize: {
+        outlined: "12rem",
+      },
       textShadow: {
         DEFAULT: "-1px 1px 0px white",
       },
-      // fontFamily: {
-      //   caslon: ["adobe-caslon-pro", "serif"],
-      //   sans: ["var(--font-opensans)"],
-      // },
+      fontFamily: {
+        caslon: ["adobe-caslon-pro", "serif"],
+        sans: ["var(--font-opensans)"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

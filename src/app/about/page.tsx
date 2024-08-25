@@ -1,4 +1,7 @@
+import { cookies } from "next/headers";
+
 export default function About() {
+  console.log(cookies.name);
   return (
     <section>
       <h3>Front-End Development</h3>
