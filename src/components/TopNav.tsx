@@ -6,7 +6,7 @@ const NavLink = ({ href, children }: { href: string; children: ReactNode }) => {
   return (
     <Link
       href={href}
-      className="py-2 px-4 text-shadow block transition-colors duration-300 hover:bg-white hover:bg-opacity-50 hover:shadow-md"
+      className="py-2 px-2 mr-2 text-shadow block transition-colors duration-300 hover:bg-white hover:bg-opacity-50 hover:shadow-md"
     >
       {children}
     </Link>
@@ -16,9 +16,10 @@ const NavLink = ({ href, children }: { href: string; children: ReactNode }) => {
 const TopNav = () => {
   return (
     <nav
-      className={`bg-tan text-puce antialiased mb-8 ${openSans.className} md:bg-transparent md:grid md:gap-8 md:grid-cols-3`}
+      className={`col-span-12 text-puce antialiased px-8 mb-8 ${openSans.className}
+            bg-transparent md:grid md:gap-8 md:grid-cols-3 lg:bg-yellow lg:h-10 lg:col-start-2 lg:col-end-3`}
     >
-      <ul className="flex  md:col-span-2 md:col-start-2 md:-ml-2">
+      <ul className="flex  md:col-span-2 md:col-start-2 ">
         <li>
           <NavLink href="/skills">Skills</NavLink>
         </li>

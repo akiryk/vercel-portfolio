@@ -7,7 +7,7 @@ const Work = () => {
     <ul>
       {workExamples.map((workExample) => (
         <li key={workExample.id} id={`project-${workExample.id}`}>
-          <Section classes="mt-4">
+          <Section classes="mt-4 mb-20">
             <WorkExample {...workExample} />
           </Section>
         </li>

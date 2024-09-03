@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import TopNav from "@/app/TopNav";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Adam Kiryk",
@@ -17,13 +17,13 @@ export default function RootLayout({
       <body className="font-caslon text-gray antialiased">
         <a href="#main" className="sr-only focus:not-sr-only">
           Skip To Main
-        </a>{" "}
-        <div className="mx-8">
-          <TopNav />
-        </div>
-        <main id="main" className="mx-8 lg:mx-16">
+        </a>
+        <div className="grid grid-cols-[2rem_1fr_2rem] md:grid-cols-[4rem_1fr_4rem]">
           {children}
-        </main>
+          <section className="col-start-1 col-end-4">
+            <Footer />
+          </section>
+        </div>
       </body>
     </html>
   );

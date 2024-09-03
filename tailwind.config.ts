@@ -12,8 +12,12 @@ const config: Config = {
     extend: {
       colors: {
         tan: "#f2ecd8",
+        yellow: "#fff9e2",
         puce: "#928e58",
         gray: "#555",
+        darkgray: "#bbb",
+        slategray: "#666",
+        midgray: "#999",
         link: "#0091c1",
         red: "#c50404",
       },
@@ -26,11 +30,6 @@ const config: Config = {
       fontFamily: {
         caslon: ["adobe-caslon-pro", "serif"],
         sans: ["var(--font-opensans)"],
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },

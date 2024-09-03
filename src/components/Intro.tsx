@@ -11,14 +11,16 @@ const Intro = () => {
           animate={{ x: 0, opacity: 1 }} // Move to the left and fade in
           transition={{ duration: 1, ease: "easeInOut" }} // Take 1 second to do it
         >
-          <h1 className="text-gray text-7xl mb-2 mt-2">Adam Kiryk</h1>
+          <h1 className="text-gray text-4xl md:text-7xl mb-2 mt-2">
+            Adam Kiryk
+          </h1>
         </motion.div>
         <motion.div
           initial={{ x: -100, opacity: 0 }} // Start 100px to the right
           animate={{ x: 0, opacity: 1 }} // Move to the left and fade in
           transition={{ duration: 1, ease: "easeInOut" }} // Take 1 second to do it
         >
-          <h2 className="text-4xl mb-8 text-slate-500 italic">
+          <h2 className="text-2xl sm:text-4xl mb-8 text-midgray italic">
             Frontend Engineer
           </h2>
         </motion.div>
@@ -28,7 +30,7 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.3, ease: "easeInOut" }}
       >
-        <div className="text-2xl leading-snug">
+        <div className="text-xl sm:text-2xl leading-snug">
           <p className="my-6 antialiased ">
             I’ve worked as a front-end developer and website designer for over
             ten years. I’m passionate about stability, performance, and

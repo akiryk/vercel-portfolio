@@ -1,4 +1,4 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { openSans } from "@/app/fonts";
@@ -10,8 +10,10 @@ type Props = {
   bulletPoints: string[];
   description: string;
   image: string;
+  imageWidth: number;
+  imageHeight: number;
   altText: string;
-  startDate: number;
+  startDate?: number;
   endDate?: number;
   url?: string;
   buttonText?: string;
@@ -21,7 +23,7 @@ export default function WorkExample(props: Props) {
   const shouldShowLink = props.url && props.buttonText;
   return (
     <>
-      <div className="col-span-12 md:col-span-9 md:col-start-4 lg:col-span-7 lg:col-start-5 lg:-mb-20">
+      <div className="col-span-12 md:col-span-9 md:col-start-4 lg:col-span-6 lg:col-start-7 lg:-mb-20">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -31,7 +33,7 @@ export default function WorkExample(props: Props) {
           <div className="outlined text-outlined">{props.id}</div>
         </motion.div>
       </div>
-      <div className="col-span-4">
+      <div className="col-span-5 mt-20">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -41,20 +43,20 @@ export default function WorkExample(props: Props) {
           <Image
             src={props.image}
             alt={props.altText}
-            width={500}
-            height={500}
+            width={props.imageWidth}
+            height={props.imageHeight}
           />
         </motion.div>
       </div>
 
-      <div className="col-span-12 md:col-span-8 lg:col-span-7">
+      <div className="col-span-12 md:col-span-8 lg:col-span-6 lg:col-start-6">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
           viewport={{ margin: "-200px 0px" }}
         >
-          <h4 className="text-6xl mb-2 mt-2 ">{props.title}</h4>
+          <h4 className="text-4xl md:text-6xl mb-2 mt-2 ">{props.title}</h4>
           <p className="text-2xl">
             <span className="text-lg text-gray">
               <span>{props.startDate}</span>
@@ -66,7 +68,7 @@ export default function WorkExample(props: Props) {
           </p>
           <div className={`mt-8 ${openSans.className} text-lg`}>
             <p className="uppercase font-extrabold mb-4">What I did</p>
-            <ul className="text-slate-500">
+            <ul className="text-slategray">
               {props.bulletPoints.map((bulletPoint) => (
                 <li key={bulletPoint} className="my-4">
                   {bulletPoint}
