@@ -58,7 +58,9 @@ export default function WorkExample(props: Props) {
         >
           <h4 className="text-4xl md:text-6xl mb-2 mt-2 ">{props.title}</h4>
           <p className="text-2xl">
-            <span className="text-lg text-gray">
+            <span
+              className={`text-sm uppercase text-midgray ${openSans.className} mr-2`}
+            >
               <span>{props.startDate}</span>
               {props.endDate ? (
                 <span className="text-md "> – {props.endDate}</span>
@@ -69,7 +71,9 @@ export default function WorkExample(props: Props) {
             {props.description}
           </p>
           <div className={`mt-8 ${openSans.className} text-lg`}>
-            <p className="uppercase font-extrabold mb-4">What I did</p>
+            <p className="uppercase font-extrabold mb-4">{`${
+              props.id === 1 ? "What I\u2019ve done" : "What I did"
+            }`}</p>
             <ul className="text-slategray">
               {props.bulletPoints.map((bulletPoint) => (
                 <li key={bulletPoint} className="my-4">
