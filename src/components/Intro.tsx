@@ -32,8 +32,8 @@ const Intro = () => {
         transition={{ duration: 1, delay: 0.3, ease: "easeInOut" }}
       >
         <Text>
-          I'm a front-end engineer with over twelve years experience in the
-          industry, first as a UX and UI designer, then as a developer. I'm
+          I&apos;m a front-end engineer with over twelve years experience in the
+          industry, first as a UX and UI designer, then as a developer. I&apos;m
           passionate about performance, stability, and accessibility, and I love
           creating great user experiences.
         </Text>
