@@ -1,17 +1,5 @@
-import Link from "next/link";
+import NavLink from "@/components/NavLink";
 import { openSans } from "@/app/fonts";
-import { ReactNode } from "react";
-
-const NavLink = ({ href, children }: { href: string; children: ReactNode }) => {
-  return (
-    <Link
-      href={href}
-      className="py-2 px-2 mr-2 text-shadow block transition-colors duration-300 hover:bg-white hover:bg-opacity-50 hover:shadow-md"
-    >
-      {children}
-    </Link>
-  );
-};
 
 const TopNav = () => {
   return (
@@ -21,13 +9,13 @@ const TopNav = () => {
     >
       <ul className="flex  md:col-span-2 md:col-start-2 ">
         <li>
-          <NavLink href="/skills">Skills</NavLink>
+          <NavLink href="#background">Skills</NavLink>
         </li>
         <li>
-          <NavLink href="#project-1">Work Examples</NavLink>
+          <NavLink href="#work-examples">Work Examples</NavLink>
         </li>
         <li>
-          <NavLink href="/about">About</NavLink>
+          <NavLink href="#about">About</NavLink>
         </li>
       </ul>
     </nav>

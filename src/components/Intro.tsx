@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-import Link from "next/link";
+import NavLink from "@/components/NavLink";
+import Text from "@/components/Text";
 
 const Intro = () => {
   return (
@@ -30,20 +31,21 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.3, ease: "easeInOut" }}
       >
-        <div className="text-xl sm:text-2xl leading-snug">
-          <p className="my-6 antialiased ">
-            I’ve worked as a front-end developer and website designer for over
-            ten years. I’m passionate about stability, performance, and
-            accessibility, and I love creating great user experiences.
-          </p>
-          <p className="my-6">
-            Sound good? I also write and speak clearly about my work. I thrive
-            in a collaborative environment. And I love learning new things.
-          </p>
-          <Link href="/about" className="text-link">
+        <Text>
+          I'm a front-end engineer with over twelve years experience in the
+          industry, first as a UX and UI designer, then as a developer. I'm
+          passionate about performance, stability, and accessibility, and I love
+          creating great user experiences.
+        </Text>
+        <Text>
+          Sound good? I also write and speak clearly about my work. I thrive in
+          a collaborative environment. And I love learning new things.
+        </Text>
+        <Text>
+          <NavLink href="#background" classes="text-link">
             Say more...
-          </Link>
-        </div>
+          </NavLink>
+        </Text>
       </motion.div>
     </>
   );

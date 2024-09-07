@@ -23,22 +23,22 @@ export default function WorkExample(props: Props) {
   const shouldShowLink = props.url && props.buttonText;
   return (
     <>
-      <div className="col-span-12 md:col-span-9 md:col-start-4 lg:col-span-6 lg:col-start-7 lg:-mb-20">
+      <div className="col-span-12 md:col-span-8 md:col-start-4 lg:col-span-6 lg:col-start-5 lg:-mb-20">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          viewport={{ margin: "-200px 0px" }}
+          // viewport={{ margin: "-200px 0px" }}
         >
           <div className="outlined text-outlined">{props.id}</div>
         </motion.div>
       </div>
-      <div className="col-span-5 mt-20">
+      <div className="col-span-4 mt-4">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          viewport={{ margin: "-200px 0px" }}
+          // viewport={{ margin: "-200px 0px" }}
         >
           <Image
             src={props.image}
@@ -49,19 +49,21 @@ export default function WorkExample(props: Props) {
         </motion.div>
       </div>
 
-      <div className="col-span-12 md:col-span-8 lg:col-span-6 lg:col-start-6">
+      <div className="col-span-12 md:col-span-8 lg:col-span-6 lg:col-start-5">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          viewport={{ margin: "-200px 0px" }}
+          // viewport={{ margin: "-200px 0px" }}
         >
           <h4 className="text-4xl md:text-6xl mb-2 mt-2 ">{props.title}</h4>
           <p className="text-2xl">
             <span className="text-lg text-gray">
               <span>{props.startDate}</span>
-              {props.endDate && (
-                <span className="text-md ">—{props.endDate}</span>
+              {props.endDate ? (
+                <span className="text-md "> – {props.endDate}</span>
+              ) : (
+                " – present"
               )}
             </span>{" "}
             {props.description}

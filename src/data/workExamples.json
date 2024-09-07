@@ -1,7 +1,40 @@
 [
   {
     "id": 1,
+    "title": "Frontend Platform Team",
+    "description": "The Frontend Platform Team is responsible for creating and maintaining the tools and libraries that enable Wayfair’s front-end engineers to build high-quality, performant, and accessible web applications.",
+    "bulletPoints": [
+      "Led transition to Next.js app router",
+      "Accelerated our CI/CD pipelines by 30%",
+      "Rolled out a decoupled logging library",
+      "Optimized our Docker build process and K8s configuration"
+    ],
+    "image": "/logos.png",
+    "imageWidth": 1144,
+    "imageHeight": 706,
+    "altText": "Screenshot of wedding registry site",
+    "startDate": 2024
+  },
+  {
+    "id": 2,
+    "title": "Paid Search Landing Experience",
+    "description": "As the senior front-end engineer, I led our team in decoupling the Registry site from the main Wayfair repo, enabling us to move faster and to create a more stable experience for our users.",
+    "bulletPoints": [
+      "Led migration to a modular Next.js architecture in a monorepo",
+      "Implemented SSR and improved performance",
+      "Drove team’s adoption of TypeScript, reducing bugs and leading to faster feature development cycles"
+    ],
+    "image": "/coffee-atc.png",
+    "imageWidth": 1418,
+    "imageHeight": 846,
+    "altText": "Mid-century modern coffee table",
+    "startDate": 2022,
+    "endDate": 2024
+  },
+  {
+    "id": 3,
     "title": "Wayfair Wedding Registry",
+    "description": "As the senior front-end engineer, I led our team in decoupling the Registry site from the main Wayfair repo, enabling us to move faster and to create a more stable experience for our users.",
     "bulletPoints": [
       "Created a subscription-based approach to managing application state using React Context.",
       "Emphasized stability and wrote tests to achieve extensive code coverage.",
@@ -9,35 +42,15 @@
       "Implemented Storybook for testing UI; trained team in how to use it.",
       "Improved form validation in the create-registry flow."
     ],
-    "description": "As the senior front-end engineer, I led our team in decoupling the Registry site from the main Wayfair repo, enabling us to move faster and to create a more stable experience for our users.",
-    "image": "/registry.jpg",
-    "imageWidth": 1022,
-    "imageHeight": 822,
-    "altText": "Screenshot of wedding registry site",
-    "startDate": 2021,
-    "endDate": 2022,
-    "buttonText": "View Project"
-  },
-  {
-    "id": 2,
-    "title": "“Add to Registry” Button",
-    "bulletPoints": [
-      "Created a package that can be installed by yarn or npm, and that manages the UI and data requirements for Wayfair’s Add to Registry button.",
-      "Led cross-team process to architect an approach that would enable individual buttons to correctly say “Add to Registry” or “View in Registry”, depending on whether they represent products that have already been saved.",
-      "Wrote extensive tests, nearing 100% coverage.",
-      "Managed data fetching with GraphQL queries that run without the parent application (e.g. the Browse or Product Detail Page page) needing to know anything about them."
-    ],
-    "description": "I was the lead engineer on our project to create an add-to-registry library that would improve performance, provide a better developer experience, and enable widespread adoption of add-to-registry functionality across Wayfair properties.",
     "image": "/add-to-registry-button.jpg",
     "imageWidth": 1105,
     "imageHeight": 822,
     "altText": "Screenshot of an add-to-registry button",
     "startDate": 2021,
-    "url": "https://www.example.com",
-    "buttonText": "View Project"
+    "endDate": 2022
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Favorites/Lists",
     "bulletPoints": [
       "Implemented a complete redesign of the Lists landing page.",
@@ -46,34 +59,31 @@
       "Implemented bulk editing features for business-to-business users."
     ],
     "description": "The Lists feature drives a disproportionately large segment of Wayfair sales and is consequently a high-profile part of the site. Over approximately two years, I worked on several major projects to improve the Lists experience both on the primary landing page and with the save button.",
-    "image": "/favorites.jpg",
-    "imageWidth": 1024,
-    "imageHeight": 787,
+    "image": "/favorites-less.png",
+    "imageWidth": 1310,
+    "imageHeight": 936,
     "altText": "favorites page screenshot",
     "startDate": 2018,
-    "endDate": 2020,
-    "url": "https://www.example.com",
-    "buttonText": "View Project"
+    "endDate": 2020
   },
   {
-    "id": 4,
-    "title": "Responsive design for a news platform used by over 160 NPR stations.",
-    "bulletPoints": [
-      "Researched station and user needs.",
-      "Designed and built a responsive Drupal theme adopted by over 160 stations.",
-      "Created a flexible yet simple system for handling station branding.",
-      "Wrote front-end code for the home page and story pages."
-    ],
+    "id": 5,
+    "title": "NPR Responsive News Site",
     "description": "I led user research, designed information architecture, and wrote front end code for Core Publisher, a website publishing platform for small and medium-sized NPR stations.",
+    "bulletPoints": [
+      "Led transition to responsive web design",
+      "Enabled 160 public radio stations to sunset costly mobile websites, reducing maintenance costs by 40%",
+      "Implemented BEM CSS methodology: Reduced visual regressions and decreased time to implement design changes by 25%"
+    ],
     "image": "/core-publisher.png",
     "imageWidth": 2364,
     "imageHeight": 1827,
     "altText": "news website on screens",
-    "url": "https://www.example.com",
-    "buttonText": "View Project"
+    "startDate": 2016,
+    "endDate": 2017
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Mobile Web",
     "description": "Before NPR released a responsive news platform for member stations, we created a mobile-only news website.",
     "bulletPoints": [
@@ -85,7 +95,7 @@
     "imageWidth": 1013,
     "imageHeight": 737,
     "altText": "news website on screens",
-    "url": "https://www.example.com",
-    "buttonText": "View Project"
+    "startDate": 2014,
+    "endDate": 2015
   }
 ]
