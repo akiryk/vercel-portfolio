@@ -4,10 +4,10 @@
     "title": "Frontend Platform Team",
     "description": "The Frontend Platform Team is responsible for creating and maintaining the tools and libraries that enable Wayfair’s front-end engineers to build high-quality, performant, and accessible web applications.",
     "bulletPoints": [
-      "Led transition to Next.js app router",
-      "Accelerated our CI/CD pipelines by 30%",
-      "Rolled out a decoupled logging library",
-      "Optimized our Docker build process and K8s configuration"
+      "Led transition to Next.js app router.",
+      "Accelerated our CI/CD pipelines by 30%.",
+      "Rolled out a decoupled logging library.",
+      "Optimized our Docker build process and Kubernetes configuration."
     ],
     "image": "/logos.png",
     "imageWidth": 1144,
@@ -20,9 +20,9 @@
     "title": "Paid Search Landing Experience",
     "description": "This is the first taste of the business for many customers — and it’s therefore critical that we provide a great experience, which we do through constant experimentation and optimization.",
     "bulletPoints": [
-      "Led experiments in recommendations by class that improved conversion by 5%",
-      "Implemented SSR and improved performance",
-      "Drove team’s adoption of TypeScript, reducing bugs and leading to faster feature development cycles"
+      "Led experiments in recommendations by class that improved conversion by 5%.",
+      "Implemented SSR and improved performance.",
+      "Drove team’s adoption of TypeScript, reducing bugs and leading to faster feature development cycles."
     ],
     "image": "/coffee-atc.png",
     "imageWidth": 1418,
@@ -39,7 +39,7 @@
       "Created a lightweight library for managing state using a pub/sub model with React Context.",
       "Emphasized stability and wrote tests to achieve extensive code coverage.",
       "Led team‘s efforts to improve front-end performance, creating dashboards to monitor web vitals, and reducing our first input delay to under 100ms.",
-      "Implemented Storybook for testing UI; trained team in how to use it.",
+      "Implemented Storybook for testing UI; trained the team to use it.",
       "Improved form validation in the create-registry flow."
     ],
     "image": "/add-to-registry-button.jpg",
@@ -54,7 +54,7 @@
     "title": "Favorites/Lists",
     "bulletPoints": [
       "Implemented a complete redesign of the Lists landing page.",
-      "Decoupled the save (aka \"heart\") button into a stand-alone library, and simplified the save flow for users with more than one list.",
+      "Decoupled the save (aka “heart”) button into a stand-alone library and simplified the save flow for users with multiple lists",
       "Improved accessibility by enabling keyboard navigation and better support for screen readers."
     ],
     "description": "Customers click the heart button to save items to their favorites list — which, not surprisingly, drives a disproportionate level of sales. Over approximately two years, I worked on several major projects that improved the Favorites experience both on the lists landing page and with the heart button.",
@@ -70,9 +70,9 @@
     "title": "NPR Responsive News Site",
     "description": "I led user research, designed information architecture, and wrote front end code for Core Publisher, a website publishing platform for small and medium-sized NPR stations.",
     "bulletPoints": [
-      "Led transition to responsive web design",
-      "Enabled 160 public radio stations to sunset costly mobile websites, reducing maintenance costs by 40%",
-      "Implemented BEM CSS methodology: Reduced visual regressions and decreased time to implement design changes by 25%"
+      "Led transition to responsive web design.",
+      "Enabled 160 public radio stations to sunset costly mobile websites, reducing maintenance costs by 40%.",
+      "Implemented BEM CSS methodology: Reduced visual regressions and decreased time to implement design changes by 25%."
     ],
     "image": "/core-publisher.png",
     "imageWidth": 2364,

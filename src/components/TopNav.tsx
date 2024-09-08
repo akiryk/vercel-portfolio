@@ -4,7 +4,7 @@ import { openSans } from "@/app/fonts";
 const TopNav = () => {
   return (
     <nav
-      className={`col-span-12 text-puce antialiased px-8 mb-8 ${openSans.className}
+      className={`sm:mt-4 lg:mt-0 col-span-12 text-puce antialiased px-8 mb-8 ${openSans.className}
             bg-transparent lg:grid lg:gap-8 lg:grid-cols-3 lg:bg-yellow lg:h-10 lg:col-start-2 lg:col-end-3`}
     >
       <ul className="flex  md:col-span-2 md:col-start-2 ">

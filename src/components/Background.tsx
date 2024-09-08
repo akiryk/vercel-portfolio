@@ -14,7 +14,7 @@ export default function Background() {
           Wayfair
         </Link>{" "}
         since 2018, where I create solutions to critical business needs using
-        technologies including React, Next.js, TypeScript, JavaScript, node,
+        technologies including React, Next.js, TypeScript, JavaScript, Node.js,
         TurboRepo, Buildkite, Cypress, webpack — and of course HTML, CSS, and
         git.
       </Text>

@@ -18,7 +18,7 @@ export default function RootLayout({
         <a href="#main" className="sr-only focus:not-sr-only">
           Skip To Main
         </a>
-        <div className="grid grid-cols-[2rem_1fr_2rem] md:grid-cols-[4rem_1fr_4rem]">
+        <div className="grid grid-cols-[2rem_1fr_2rem] md:grid-cols-[2rem_1fr_4rem] lg:grid-cols-[4rem_1fr_4rem]">
           {children}
           <section className="col-start-1 col-end-4">
             <Footer />
