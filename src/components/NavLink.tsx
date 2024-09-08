@@ -6,7 +6,7 @@ import { ReactNode } from "react";
 
 const NavLink = ({
   href,
-  classes = "py-2 px-2 mr-2 text-shadow block transition-colors duration-300 hover:bg-white hover:bg-opacity-50 hover:shadow-md",
+  classes = "lg:py-2 lg:px-2 mr-4 lg:mr-2 text-shadow block transition-colors duration-300 lg:hover:bg-white lg:hover:bg-opacity-50 lg:hover:shadow-md",
   children,
 }: {
   href: string;

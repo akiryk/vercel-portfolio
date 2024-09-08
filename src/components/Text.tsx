@@ -6,7 +6,7 @@ type Props = {
 
 export default function Text({ children }: Props) {
   return (
-    <p className="text-xl md:text-2xl my-6 antialiased sm:leading-normal">
+    <p className="text-xl lg:text-2xl my-6 antialiased sm:leading-normal">
       {children}
     </p>
   );

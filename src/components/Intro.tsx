@@ -12,7 +12,7 @@ const Intro = () => {
           animate={{ x: 0, opacity: 1 }} // Move to the left and fade in
           transition={{ duration: 1, ease: "easeInOut" }} // Take 1 second to do it
         >
-          <h1 className="text-gray text-4xl md:text-7xl mb-2 mt-2">
+          <h1 className="text-gray text-4xl lg:text-7xl mb-2 mt-2">
             Adam Kiryk
           </h1>
         </motion.div>

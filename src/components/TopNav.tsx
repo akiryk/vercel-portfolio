@@ -5,7 +5,7 @@ const TopNav = () => {
   return (
     <nav
       className={`col-span-12 text-puce antialiased px-8 mb-8 ${openSans.className}
-            bg-transparent md:grid md:gap-8 md:grid-cols-3 lg:bg-yellow lg:h-10 lg:col-start-2 lg:col-end-3`}
+            bg-transparent lg:grid lg:gap-8 lg:grid-cols-3 lg:bg-yellow lg:h-10 lg:col-start-2 lg:col-end-3`}
     >
       <ul className="flex  md:col-span-2 md:col-start-2 ">
         <li>

@@ -34,7 +34,7 @@ export default function WorkExample(props: Props) {
           <div className="outlined text-outlined">{props.id}</div>
         </motion.div>
       </div>
-      <div className="sm:w-auto sm:mx-auto sm:mb-10 md:w-2/3 lg:w-auto col-span-4 mt-4">
+      <div className="sm:w-auto  sm:mb-10 md:w-2/3 lg:w-auto col-span-4 mt-4">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -73,13 +73,13 @@ export default function WorkExample(props: Props) {
             </span>{" "}
             {props.description}
           </Text>
-          <div className={`mt-8 ${openSans.className} text-lg`}>
+          <div className={`mt-8 ${openSans.className} sm:text-base lg:text-lg`}>
             <p className="uppercase font-extrabold mb-4">{`${
               props.id === 1 ? "What I\u2019ve done" : "What I did"
             }`}</p>
-            <ul className="text-slategray">
+            <ul className="text-slategray ">
               {props.bulletPoints.map((bulletPoint) => (
-                <li key={bulletPoint} className="my-4">
+                <li key={bulletPoint} className="my-4 sm:text-base lg:text-lg">
                   {bulletPoint}
                 </li>
               ))}
