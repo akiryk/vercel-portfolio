@@ -9,6 +9,22 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "0px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "640px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "900px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1250px",
+      // => @media (min-width: 1280px) { ... }
+
+      "2xl": "1536px",
+      // => @media (min-width: 1536px) { ... }
+    },
     extend: {
       colors: {
         tan: "#f2ecd8",

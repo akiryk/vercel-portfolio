@@ -14,7 +14,7 @@ export default function Home() {
       <TopNav />
       <Section
         id="introTrigger"
-        classes="lg:pt-32 min-h-lvh col-start-2 col-end-3"
+        classes="lg:pt-32 min-h-lvh col-start-2 col-end-3 bg-red"
       >
         <div
           id="primaryLogo"
@@ -34,9 +34,9 @@ export default function Home() {
 
       <Section
         id="background"
-        classes="min-h-lvh col-start-2 col-end-3 flex flex-col items-center"
+        classes="min-h-lvh col-start-2 col-end-3 flex flex-col bg-red"
       >
-        <div className="col-span-12 md:col-span-9 md:col-start-4 lg:col-span-6 lg:col-start-5">
+        <div className="sm:col-span-12 md:col-start-4 md:col-span-7 lg:col-span-7 lg:col-start-5">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -51,9 +51,9 @@ export default function Home() {
 
       <Section
         id="work-examples"
-        classes="col-start-2 col-end-3 flex flex-col items-center min-h-64"
+        classes="min-h-lvh col-start-2 col-end-3 flex flex-col"
       >
-        <div className="col-span-12 md:col-span-9 md:col-start-4 col-start-2 col-end-3 lg:col-span-6 lg:col-start-5">
+        <div className="col-span-12 md:col-start-4 md:col-span-8 lg:col-start-5">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
