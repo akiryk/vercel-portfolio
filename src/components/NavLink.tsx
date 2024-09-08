@@ -19,6 +19,7 @@ const NavLink = ({
   function handleClick(e: React.MouseEvent) {
     e.preventDefault();
     const target = document.querySelector(href);
+    console.log("target", target);
     if (target) {
       target.scrollIntoView({ behavior: "smooth" });
       router.replace(pathname); // This removes the hash from the URL

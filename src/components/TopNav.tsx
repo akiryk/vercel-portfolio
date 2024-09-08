@@ -9,13 +9,13 @@ const TopNav = () => {
     >
       <ul className="flex  md:col-span-2 md:col-start-2 ">
         <li>
-          <NavLink href="#background">Skills</NavLink>
+          <NavLink href="#background">Background</NavLink>
         </li>
         <li>
           <NavLink href="#work-examples">Work Examples</NavLink>
         </li>
         <li>
-          <NavLink href="#about">About</NavLink>
+          <NavLink href="#about">About Me</NavLink>
         </li>
       </ul>
     </nav>

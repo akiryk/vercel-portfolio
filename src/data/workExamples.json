@@ -18,9 +18,9 @@
   {
     "id": 2,
     "title": "Paid Search Landing Experience",
-    "description": "As the senior front-end engineer, I led our team in decoupling the Registry site from the main Wayfair repo, enabling us to move faster and to create a more stable experience for our users.",
+    "description": "This is the first taste of the business for many customers — and it’s therefore critical that we provide a great experience, which we do through constant experimentation and optimization.",
     "bulletPoints": [
-      "Led migration to a modular Next.js architecture in a monorepo",
+      "Led experiments in recommendations by class that improved conversion by 5%",
       "Implemented SSR and improved performance",
       "Drove team’s adoption of TypeScript, reducing bugs and leading to faster feature development cycles"
     ],
@@ -34,9 +34,9 @@
   {
     "id": 3,
     "title": "Wayfair Wedding Registry",
-    "description": "As the senior front-end engineer, I led our team in decoupling the Registry site from the main Wayfair repo, enabling us to move faster and to create a more stable experience for our users.",
+    "description": "As the senior front-end engineer, I led our team in decoupling the Registry site from the company’s monolith, enabling us to move faster and to create a more stable experience for our users.",
     "bulletPoints": [
-      "Created a subscription-based approach to managing application state using React Context.",
+      "Created a lightweight library for managing state using a pub/sub model with React Context.",
       "Emphasized stability and wrote tests to achieve extensive code coverage.",
       "Led team‘s efforts to improve front-end performance, creating dashboards to monitor web vitals, and reducing our first input delay to under 100ms.",
       "Implemented Storybook for testing UI; trained team in how to use it.",
@@ -55,10 +55,9 @@
     "bulletPoints": [
       "Implemented a complete redesign of the Lists landing page.",
       "Decoupled the save (aka \"heart\") button into a stand-alone library, and simplified the save flow for users with more than one list.",
-      "Improved accessibility by enabling keyboard navigation and better support for screen readers.",
-      "Implemented bulk editing features for business-to-business users."
+      "Improved accessibility by enabling keyboard navigation and better support for screen readers."
     ],
-    "description": "The Lists feature drives a disproportionately large segment of Wayfair sales and is consequently a high-profile part of the site. Over approximately two years, I worked on several major projects to improve the Lists experience both on the primary landing page and with the save button.",
+    "description": "Customers click the heart button to save items to their favorites list — which, not surprisingly, drives a disproportionate level of sales. Over approximately two years, I worked on several major projects that improved the Favorites experience both on the lists landing page and with the heart button.",
     "image": "/favorites-less.png",
     "imageWidth": 1310,
     "imageHeight": 936,

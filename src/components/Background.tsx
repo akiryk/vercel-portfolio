@@ -1,5 +1,4 @@
 import Link from "next/link";
-import NavLink from "./NavLink";
 import Text from "@/components/Text";
 
 export default function Background() {
@@ -27,11 +26,6 @@ export default function Background() {
         , where I combined the roles of front-end developer and user-experience
         designer, and created a variety of websites and online tools for member
         stations.
-      </Text>
-      <Text>
-        <Link href="#work-examples" className="text-link">
-          Read about some work...
-        </Link>
       </Text>
     </>
   );

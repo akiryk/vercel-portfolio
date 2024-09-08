@@ -42,8 +42,8 @@ const Intro = () => {
           a collaborative environment. And I love learning new things.
         </Text>
         <Text>
-          <NavLink href="#background" classes="text-link">
-            Say more...
+          <NavLink href="#work-examples" classes="text-link">
+            See more...
           </NavLink>
         </Text>
       </motion.div>
