@@ -26,7 +26,7 @@ const NavLink = ({
     }
   }
   return (
-    <Link onClick={handleClick} href={href} className={classes}>
+    <Link href={href} className={classes}>
       {children}
     </Link>
   );
