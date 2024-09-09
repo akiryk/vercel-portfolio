@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Frontend Platform Team",
-    "description": "The Frontend Platform Team is responsible for creating and maintaining the tools and libraries that enable Wayfair’s front-end engineers to build high-quality, performant, and accessible web applications.",
+    "description": "The Frontend Platform Team at Wayfair is responsible for creating and maintaining the tools and libraries that enable our front-end engineers to build high-quality, performant, and accessible web applications.",
     "bulletPoints": [
       "Led transition to Next.js app router.",
       "Accelerated our CI/CD pipelines by 30%.",
@@ -18,9 +18,9 @@
   {
     "id": 2,
     "title": "Paid Search Landing Experience",
-    "description": "This is the first taste of the business for many customers — and it’s therefore critical that we provide a great experience, which we do through constant experimentation and optimization.",
+    "description": "This is the first taste of the wayfair.com for many customers — and it’s therefore critical that we provide a great experience, which we do through constant experimentation and optimization.",
     "bulletPoints": [
-      "Led experiments in recommendations by class that improved conversion by 5%.",
+      "Led experiments in recommendations by class that reduced bounce rate by 3%.",
       "Implemented SSR and improved performance.",
       "Drove team’s adoption of TypeScript, reducing bugs and leading to faster feature development cycles."
     ],
@@ -34,7 +34,7 @@
   {
     "id": 3,
     "title": "Wayfair Wedding Registry",
-    "description": "As the senior front-end engineer, I led our team in decoupling the Registry site from the company’s monolith, enabling us to move faster and to create a more stable experience for our users.",
+    "description": "As the senior front-end engineer, I led our team in decoupling the Registry site from the company’s monolith, enabling engineers to iterate faster and to create a more stable experience for our users.",
     "bulletPoints": [
       "Created a lightweight library for managing state using a pub/sub model with React Context.",
       "Emphasized stability and wrote tests to achieve extensive code coverage.",
@@ -57,7 +57,7 @@
       "Decoupled the save (aka “heart”) button into a stand-alone library and simplified the save flow for users with multiple lists",
       "Improved accessibility by enabling keyboard navigation and better support for screen readers."
     ],
-    "description": "Customers click the heart button to save items to their favorites list — which, not surprisingly, drives a disproportionate level of sales. Over approximately two years, I worked on several major projects that improved the Favorites experience both on the lists landing page and with the heart button.",
+    "description": "You click the heart button to save items you like — which, not surprisingly, means it drives a disproportionate level of sales. Over two years, I worked on several major projects that improved the customer experience with favorites, both with the button and on the lists page.",
     "image": "/favorites-less.png",
     "imageWidth": 1310,
     "imageHeight": 936,
